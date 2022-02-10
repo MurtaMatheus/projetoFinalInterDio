@@ -1,0 +1,7 @@
+import { Pool } from 'pg';
+
+
+const connectionString = 'postgres://kikebfzp:W7GZqiXLWFutkPysHMNHAwl7g_7vzazp@kesavan.db.elephantsql.com/kikebfzp';
+const dbConnection = new Pool({ connectionString })
+
+export default dbConnection; 
